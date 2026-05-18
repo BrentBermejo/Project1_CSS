@@ -131,6 +131,14 @@ header .navbar {
   transform: scale(1.1);
 }
 
+footer{
+    margin-top: auto;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
 #close-menu-btn {
   position: absolute;
   right: 20px;
@@ -144,6 +152,8 @@ header .navbar {
   cursor: pointer;
   display: none;
 }
+
+
 
 @media (max-width: 768px) {
   header {
